@@ -1,15 +1,18 @@
 .header{
     display: flex;
-    flex-direction: row;
-    margin: 5px;
-    margin-top:5px;
+    top:0;
+    margin: 15px;
     background:none;
     background-color: transparent;
     width: 100vw;
+    position: absolute;
+    z-index: 100;
 }
 
 .header__logo{
-
+    height: 24px;
+    width: 100px;
+    margin-top:7px;
 }
 
 .header__items{
@@ -18,7 +21,14 @@
     justify-content: center;
 }
 
+.header__items>p,
+.header__menu>p
+{
+    margin: 5px;
+}
+
 .header__menu{
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
+

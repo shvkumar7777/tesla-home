@@ -1,6 +1,13 @@
+@font-face {
+  font-family: 'iCiel-Medium';
+  src: local('iCiel-Medium') url('./fonts/iCiel-Medium.ttf') format('truetype');
+  font-weight: normal;
+}
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'iCiel-Medium','Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'iCiel-Medium',-apple-system, BlinkMacSystemFon ,'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -8,6 +15,6 @@ body {
 }
 
 code {
-  font-family: iCiel-Medium, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'iCiel-Medium', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
