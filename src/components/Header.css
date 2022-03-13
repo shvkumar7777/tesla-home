@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    margin-top:5px;
+    background:none;
+    background-color: transparent;
+    width: 100vw;
+}
+
+.header__logo{
+
+}
+
+.header__items{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.header__menu{
+    display: flex;
+    justify-content: flex-start;
+}
