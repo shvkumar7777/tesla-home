@@ -1,3 +1,6 @@
+/* using the BEM model to define the class names as a standard practice , please refer to http://getbem.com/introduction/
+https://css-tricks.com/bem-101/*/
+
 .header{
     display: flex;
     top:0;
@@ -24,11 +27,13 @@
 .header__items>p,
 .header__menu>p
 {
-    margin: 5px;
+    margin: 10px;
+    /* text-transform: uppercase; */
 }
 
 .header__menu{
     display: flex;
     justify-content: flex-end;
+    text-transform: capitalize;
 }
 

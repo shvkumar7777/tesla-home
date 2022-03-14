@@ -1,3 +1,4 @@
+/* added a iCiel font type to mimic the Tesla font types */
 @font-face {
   font-family: 'iCiel-Medium';
   src: local('iCiel-Medium') url('./fonts/iCiel-Medium.ttf') format('truetype');
